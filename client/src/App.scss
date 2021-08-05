@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px solid #a66b32;
 
     svg.logo {
       width: 50px;
@@ -22,5 +23,49 @@
   }
 
   .home-page {
+    .main {
+      width: 80vw;
+      height: 80vh;
+      margin: auto;
+      display: flex;
+
+      .left-section {
+        width: 50%;
+
+        .welcome-message {
+          margin-top: 15vh;
+          text-align: end;
+        }
+
+        img.grandfa-grandma-img {
+          width: 25vw;
+          margin-top: 5vh;
+        }
+      }
+
+      .right-section {
+        width: 50%;
+        text-align: start;
+
+        .question {
+          margin-top: 35vh;
+          margin-left: 8vw;
+        }
+
+        .game-types {
+          margin-left: 12vw;
+          margin-top: 3vh;
+
+          .game-name {
+            margin: 20px;
+            background-color: #84accd;
+            width: 250px;
+            padding: 10px;
+            border: 2px solid #a66b32;
+            border-radius: 20px;
+          }
+        }
+      }
+    }
   }
 }
