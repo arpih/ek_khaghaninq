@@ -1,10 +1,15 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import GrandfaGrandma from '../images/grandfa_grandma.jpg';
 
 function HomePage() {
   return (
     <div className="home-page">
       <Header />
+      <div className="welcome">
+        <div>Պարավս եկալ մատաղ ինիմ</div>
+        <div>#եկ_խաղանինք</div>
+      </div>
       <div className="main">
         <div className="left-section">
           <div className="welcome-message">
@@ -27,7 +32,7 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <div className="footer"></div>
+      <Footer />
     </div>
   );
 }
